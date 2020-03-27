@@ -1,0 +1,8 @@
+create_table("task") {
+  t.Column("id", "uuid", {})
+  t.Column("description", "string", {})
+  t.Column("is_done", "bool", {})
+  t.Column("completion_date", "string", {})
+  t.Column("requested_by", "string", {})
+  t.Column("executed_by", "string", {})
+}
