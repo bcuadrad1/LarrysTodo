@@ -3,7 +3,8 @@ package actions
 import (
 	"database/sql"
 	"net/http"
-	"task/models"
+
+	"github.com/bcuadrad1/LarrysTodo/models"
 
 	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/pop"

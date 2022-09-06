@@ -1,4 +1,4 @@
-module task
+module github.com/bcuadrad1/LarrysTodo
 
 go 1.14
 

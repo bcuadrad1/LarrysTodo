@@ -4,8 +4,9 @@ import (
 	"fmt"
 	"net/http"
 	"net/url"
-	"task/models"
 	"time"
+
+	"github.com/bcuadrad1/LarrysTodo/models"
 
 	"github.com/gobuffalo/uuid"
 )
