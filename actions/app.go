@@ -1,6 +1,8 @@
 package actions
 
 import (
+	"fmt"
+
 	"github.com/gobuffalo/buffalo"
 	"github.com/gobuffalo/envy"
 	forcessl "github.com/gobuffalo/mw-forcessl"
@@ -62,6 +64,8 @@ func App() *buffalo.App {
 		app.GET("/tasks", TaskList)
 		app.POST("/tasks", TaskCreate)
 		app.GET("/pending_tasks", TaskPendingList)
+
+		fmt.Println("---> for another release jajaj")
 
 		app.ServeFiles("/", assetsBox) // serve files from the public directory
 
